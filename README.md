@@ -18,10 +18,10 @@ On macOS, if you see errors ending in "Too many open files", try running `ulimit
 
 If you see this error:
 
-> Error: Failed to load https://performance.typekit.net/, with network status code 299 and http status code 400 - Error downloading https://performance.typekit.net/ - server replied: Bad Request
-> …
-> Exit with code 1 due to network error: UnknownContentError
-> make: *** [xx] Error 1
+    Error: Failed to load https://performance.typekit.net/, with network status code 299 and http status code 400 - Error downloading https://performance.typekit.net/ - server replied: Bad Request
+    …
+    Exit with code 1 due to network error: UnknownContentError
+    make: *** [xx] Error 1
 
 Then the command actually succeeded. However, if you ran `make` and the error occurred before the last language, you will have to run the remaining languages.
 
