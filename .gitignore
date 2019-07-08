@@ -1,3 +1,3 @@
-wkhtmltox*
 *.swp
-OCDS_*.pdf
+OCDS-*.pdf
+wkhtmltox*
